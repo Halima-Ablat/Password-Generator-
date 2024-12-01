@@ -60,7 +60,7 @@ function PasswordGenerator() {
               min={6}
               max={100}
               value={length}
-              class="form-range"
+              className="form-range"
               id="customRange1"
               onChange={(e) => setLength(e.target.value)}
             />
